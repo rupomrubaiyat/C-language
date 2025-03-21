@@ -1,3 +1,5 @@
+// temporary programming
+/*
 #include <stdio.h>
 
 int main() {
@@ -13,4 +15,21 @@ int main() {
     printf("%d\n", !(a > 2));
 
     return 0; // Added return statement for completeness
+}*/
+
+
+
+    #include <stdio.h>
+
+int main() 
+{
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    // Logical AND (&&) and OR (||) trick
+    (num % 2 == 0) && printf("%d is Even\n", num);
+    (num % 2 != 0) && printf("%d is Odd\n", num);
+    
+    return 0;
 }
