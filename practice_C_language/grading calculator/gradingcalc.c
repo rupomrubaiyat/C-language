@@ -15,14 +15,14 @@ int main ()
      printf("well, You got A-");
     else if ((m<60) && (m>=50))
      printf("You got B");
-    else if ((m<50) && (m>=45))
+    else if ((m<50) && (m>=40))
      printf(" You got C");
-    else if ((m<45) && (m>=40) )
-     printf(" You got D");
+    //else if ((m<45) && (m>=40) )
+    // printf(" You got D");
     else if((m<40) && (m>=33))
-    printf("Thanks god! u passed with E grade ");
+    printf("Thanks god! u passed with D grade ");
     else if ((m<33) && (m>=0))
-    printf("Unfortunately, U failed.\n Try harder next time")  ;
+    printf("Unfortunately, U Failed.\n Try harder next time")  ;
     else
     printf(" U entered an invalid marks \n marks must be between 0 to 100");
     return 0;
