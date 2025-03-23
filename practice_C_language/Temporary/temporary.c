@@ -19,7 +19,7 @@ int main() {
 
 
 
-    #include <stdio.h>
+ /*  #include <stdio.h>
 
 int main() 
 {
@@ -31,5 +31,30 @@ int main()
     (num % 2 == 0) && printf("%d is Even\n", num);
     (num % 2 != 0) && printf("%d is Odd\n", num);
     
+    return 0;
+}*/ 
+
+#include <stdio.h>
+
+int main() {
+    float a, b;
+    char ch;  // Corrected declaration
+
+    printf("Welcome To calculator\nEnter the expression: ");
+    scanf("%f %c %f", &a, &ch, &b);  // Corrected scanf format and variable
+
+    // Logic building
+    if (ch == '+') {
+        printf("sum = %f", a + b);
+    } else if (ch == '-') {
+        printf("sub = %f", a - b);
+    } else if (ch == '*') {
+        printf("mul = %f", a * b);
+    } else if (ch == '/') {
+        printf("div = %f", a / b);
+    } else {
+        printf("Invalid operator");
+    }
+
     return 0;
 }
