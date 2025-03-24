@@ -12,10 +12,6 @@ int main (){
         printf("%d*",i);
       
         mul=mul*i;
-    
-        
-    
-    
     }
     printf("%d",mul);
 
